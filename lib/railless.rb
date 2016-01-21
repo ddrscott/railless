@@ -8,7 +8,6 @@ require 'bundler'
 Bundler.setup(:default, ENV['RAILLESS_ENV'])
 
 require 'active_record'
-require 'active_job'
 require 'yaml'
 require 'logger'
 
